@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAEA,UACI,cAAe,CACf,wBACJ","file":"main.86f3cf5b.chunk.css","sourcesContent":["@import '~antd/dist/antd.css';\n\nhtml, body{\n    font-size: 14px;\n    font-family: \"Montserrat\";\n}"]}
