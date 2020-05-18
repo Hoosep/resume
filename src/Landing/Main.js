@@ -9,6 +9,8 @@ import {
 } from '@ant-design/icons';
 import styled, { keyframes } from "styled-components";
 
+import PhotoProfile from "../Shared/Images/PhotoProfile2.jpg";
+
 const RowStyled = styled(Row)`
   min-height: 100vh;
   padding: 0 2em;
@@ -41,7 +43,7 @@ const Position = styled.span`
 `
 
 const ImageProfile = styled.img.attrs(props => ({
-  src: "https://scontent.fgdl5-1.fna.fbcdn.net/v/t1.0-9/78386705_10215904223305276_9053211995297284096_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_eui2=AeHnbzXCc4fwJwBOzO0foep4ea84GvWAJ5B5rzga9YAnkIhaELDgIIsAvTL-b_UnxOI&_nc_ohc=gkSAeCX1zQkAX_06B8o&_nc_ht=scontent.fgdl5-1.fna&oh=8663b988a567c628118d1ddee059988a&oe=5EC2588B",
+  src: PhotoProfile,
   alt: "Profile"
 }))`
   display: block;
@@ -152,7 +154,7 @@ const Main = props => {
                   </a>
                 </li>
                 <li>
-                  <a href="www.linkedin.com/in/hoosemuu" target="_blank" rel="noopener noreferrer">
+                  <a href="https://linkedin.com/in/hoosemuu" target="_blank" rel="noopener noreferrer">
                     <LinkedinOutlined/>
                   </a>
                 </li>
